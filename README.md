@@ -7,11 +7,14 @@
 TRiver is a token streaming platform for easy continuous transactions through automation. The goal is to make continuous transactions over user-defined intervals.
 
 In essence, the application automates various financial activities such as salaries and subscriptions, eliminating the need for manual intervention.
+
 <img src="https://github.com/JoshdfG/t-river/blob/8d80ba6259109dd605f1b2650b4572a6b3ddcee7/screenshots/our_services.png"/>
+
 This automation is particularly valuable in DeFi, where efficiency and reliability are paramount.
 Built on the Lisk blockchain, the application leverages the power of smart contracts to securely and efficiently handle token streaming functionalities.
 
 By implementing this solution, the Token Streaming Application aims to improve the user experience and operational efficiency within DeFi projects. Users can enjoy seamless, uninterrupted transactions while benefiting from the security and transparency provided by blockchain technology.
+
 Overall, the application represents a significant advancement in the DeFi landscape, promising greater convenience and accessibility for users worldwide.
 
 ## PROBLEM STATEMENT:
@@ -22,7 +25,10 @@ Employers paying in crypto do not have an easy way to load addresses and automat
 ## SOLUTION:
 
 <img src="https://github.com/JoshdfG/t-river/blob/8d80ba6259109dd605f1b2650b4572a6b3ddcee7/screenshots/available%20subscriptions.png"/>
-Our platform allows subscription services like Netflix to create their own module on the platform from where their users can subscribe to available services and automate payments.The salary streaming makes it easy for employers to just upload a CSV with employee addresses and amounts, select the payment interval and automatic salary payment starts.
+
+Our platform allows subscription services like Netflix to create their own module on the platform from where their users can subscribe to available services and automate payments.
+
+The salary streaming makes it easy for employers to just upload a CSV with employee addresses and amounts, select the payment interval and automatic salary payment starts.
 
 ## BUSINESS LOGIC
 
@@ -37,10 +43,11 @@ Automated staking rewards and income generation for our staking pool.
 ## IMPLEMENTATION
 
 Some of the tools we used for the project include:
-Chainlink automation using upkeep
-Solidity smart contracts
-Lisk testnet for deployment
-React ts for frontend
+
+1. Chainlink automation using upkeep
+2. Solidity smart contracts
+3. Lisk testnet for deployment
+4. React ts for frontend
 
 ## DEPLOYED CONTRACTS
 

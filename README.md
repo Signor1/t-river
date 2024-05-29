@@ -1,6 +1,6 @@
-# TRiver Frontend
+# TRiver 
 
-Welcome to the TRiver frontend repository! TRiver is a token streaming application that facilitates continuous, real-time transactions of tokens based on predefined criteria. This frontend repository contains the code for the user interface of the TRiver application.
+TRiver is a token streaming application that facilitates continuous, real-time transactions of tokens based on predefined criteria. This frontend repository contains the code for the user interface of the TRiver application.
 
 ## About TRiver
 

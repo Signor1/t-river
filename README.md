@@ -2,6 +2,8 @@
 
 ## Overview
 
+<img src="https://github.com/JoshdfG/t-river/blob/e9420e0e83be99736b96c63f1b4c313c9835947b/screenshots/landing_page.png"/>
+
 TRiver is a token streaming platform for easy continuous transactions through automation. The goal is to make continuous transactions over user-defined intervals.
 
 In essence, the application automates various financial activities such as salaries and subscriptions, eliminating the need for manual intervention.

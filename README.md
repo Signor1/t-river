@@ -1,37 +1,53 @@
-# TRiver 
+# TRiver
 
-TRiver is a token streaming application that facilitates continuous, real-time transactions of tokens based on predefined criteria. This frontend repository contains the code for the user interface of the TRiver application.
+## Overview
 
-## About TRiver
+TRiver is a token streaming platform for easy continuous transactions through automation. The goal is to make continuous transactions over user-defined intervals.
 
-TRiver is designed to enhance transaction fluidity and reliability in decentralized finance (DeFi) projects. It automates various financial processes such as salaries, subscriptions, rewards, and staking payouts without manual intervention. The application is built on the Optimism blockchain utilizing smart contracts to handle token streaming functionalities securely and efficiently.
+In essence, the application automates various financial activities such as salaries and subscriptions, eliminating the need for manual intervention.
+This automation is particularly valuable in DeFi, where efficiency and reliability are paramount.
+Built on the Lisk blockchain, the application leverages the power of smart contracts to securely and efficiently handle token streaming functionalities.
 
-## Features
+By implementing this solution, the Token Streaming Application aims to improve the user experience and operational efficiency within DeFi projects. Users can enjoy seamless, uninterrupted transactions while benefiting from the security and transparency provided by blockchain technology.
+Overall, the application represents a significant advancement in the DeFi landscape, promising greater convenience and accessibility for users worldwide.
 
-- Core token streaming functionalities: starting, pausing, and stopping token streams
-- Customizable application for various use cases including subscription models, reward systems, and salary distributions
-- Secure, user-centric account system for users to manage their streams and monitor their transaction history
-- High security and efficiency of the smart contracts through rigorous testing and potential auditing
-- User-friendly front-end interface allowing seamless interaction with token streaming functionalities
+## PROBLEM STATEMENT:
 
-## Installation
+Most of the major subscription services do not offer crypto as a payment option for their services.
+Employers paying in crypto do not have an easy way to load addresses and automate payments.
 
-To run the TRiver frontend locally, follow these steps:
+## SOLUTION:
 
-1. Clone this repository to your local machine.
-2. Navigate to the project directory in your terminal.
-3. Install dependencies by running `npm install`.
-4. Start the development server with `npm start`.
+Our platform allows subscription services like Netflix to create their own module on the platform from where their users can subscribe to available services and automate payments.The salary streaming makes it easy for employers to just upload a CSV with employee addresses and amounts, select the payment interval and automatic salary payment starts.
 
-## Contributing
+## BUSINESS LOGIC
 
-Contributions are welcome! If you'd like to contribute to the TRiver frontend, please follow these steps:
+The platform seeks to onboard existing web2 services that offer subscriptions like DSTV, Starlink, Netflix etc.
+We generate income by charging both the companies and the users for making transactions through the platform.
 
-1. Fork this repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
-3. Make your changes and commit them: `git commit -m "Your message here"`.
-4. Push to the branch: `git push origin feature-name`.
-5. Create a pull request detailing your changes.
+## FUTURE PROSPECTS
+
+We will allow more custom subscription-based services like mobile subscriptions from network providers.
+Automated staking rewards and income generation for our staking pool.
+
+## IMPLEMENTATION
+
+Some of the tools we used for the project include:
+Chainlink automation using upkeep
+Solidity smart contracts
+Lisk testnet for deployment
+React ts for frontend
+
+## DEPLOYED CONTRACTS
+
+1. Authentication Contract: https://sepolia-blockscout.lisk.com/address/0xF9E4dAdE3d9D1AD1DE6bC0565B192Bb65eD4BAb0
+2. OpToken: https://sepolia-blockscout.lisk.com/address/0xdFf7Ebb3f88D5D097F08C5522115D0656cB42314
+
+3. Modal Contract: https://sepolia-blockscout.lisk.com/address/0xcFb19dee1Fc394134074FF32D80474c45484A211
+
+4. Salary Streaming: https://sepolia-blockscout.lisk.com/address/0xe65f9bfc05AEA49E0872167D97D7447bF0b49285
+
+5. Subscription Service : https://sepolia-blockscout.lisk.com/address/0x6BBCb0cBd4871EE953C54eAA095c2ba136957b01
 
 ## License
 
@@ -40,4 +56,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contact
 
 For any inquiries or feedback, please contact us at [TRiver](mailto:emmanuelomemgboji@gmail.com).
-

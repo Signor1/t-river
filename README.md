@@ -45,10 +45,10 @@ Automated staking rewards and income generation for our staking pool.
 
 Some of the tools we used for the project include:
 
-1. Chainlink automation using upkeep
-2. Solidity smart contracts
-3. Lisk testnet for deployment
-4. React ts for frontend
+1. Chainlink automation using upkeep.
+2. Solidity smart contracts.
+3. Lisk testnet for deployment.
+4. React ts for frontend.
 
 ## DEPLOYED CONTRACTS
 

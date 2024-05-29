@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import { readOnlyProvider, wssProvider } from "@/constants/provider";
 import { getModalContract } from "@/constants/contracts";
 import { ethers } from "ethers";
+import { useLocation } from "react-router-dom";
 
 
 export const useGetOPBalance = (address: any) => {
@@ -11,6 +12,8 @@ export const useGetOPBalance = (address: any) => {
     const [withdrawCount, setWithdrawCount] = useState<number>(0);
     const [feeCount, setFeeCount] = useState<number>(0);
     const [subCount, setSubCount] = useState<number>(0);
+
+    const { pathname } = useLocation();
 
     const fetchUserOpBalance = useCallback(async () => {
         try {
@@ -43,6 +46,12 @@ export const useGetOPBalance = (address: any) => {
         fetchUserOpBalance();
     }, [fetchUserOpBalance])
 
+
+    if (pathname === "/user" || pathname === "/user/updatesalarystream" || pathname === "/user/updatesubscription") {
+        setTimeout(() => {
+            fetchUserOpBalance();
+        }, 10000)
+    }
 
     useEffect(() => {
         fetchUserOpBalance();

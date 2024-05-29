@@ -36,7 +36,10 @@ const useGetTotalWithdrawal = () => {
             ],
         };
 
-        wssProvider.getLogs({ ...withdrawfilter, fromBlock: 5850109 }).then((events) => {
+        wssProvider.getLogs({
+            ...withdrawfilter, fromBlock:
+                5810246
+        }).then((events) => {
             setWithdrawCount(events.length + 1);
         });
 

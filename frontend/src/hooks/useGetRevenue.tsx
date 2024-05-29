@@ -35,7 +35,10 @@ const useGetRevenue = () => {
             ],
         };
 
-        wssProvider.getLogs({ ...depositfilter, fromBlock: 5850109 }).then((events) => {
+        wssProvider.getLogs({
+            ...depositfilter, fromBlock:
+                5810246
+        }).then((events) => {
             setDepositCount(events.length + 1);
         });
 

@@ -68,7 +68,10 @@ const useGetSubscriptionPlans = () => {
             ],
         };
 
-        wssProvider.getLogs({ ...plansfilter, fromBlock: 5931584 }).then((events) => {
+        wssProvider.getLogs({
+            ...plansfilter, fromBlock:
+                5810389
+        }).then((events) => {
             setPlanCount(events.length + 1);
         });
 
@@ -79,7 +82,10 @@ const useGetSubscriptionPlans = () => {
             ],
         };
 
-        wssProvider.getLogs({ ...updatefilter, fromBlock: 5931584 }).then((events) => {
+        wssProvider.getLogs({
+            ...updatefilter, fromBlock:
+                5810389
+        }).then((events) => {
             setUpdateCount(events.length + 1);
         });
 
@@ -90,7 +96,10 @@ const useGetSubscriptionPlans = () => {
             ],
         };
 
-        wssProvider.getLogs({ ...activatefilter, fromBlock: 5931584 }).then((events) => {
+        wssProvider.getLogs({
+            ...activatefilter, fromBlock:
+                5810389
+        }).then((events) => {
             setActivateCount(events.length + 1);
         });
 
@@ -101,7 +110,10 @@ const useGetSubscriptionPlans = () => {
             ],
         };
 
-        wssProvider.getLogs({ ...deactivatefilter, fromBlock: 5931584 }).then((events) => {
+        wssProvider.getLogs({
+            ...deactivatefilter, fromBlock:
+                5810389
+        }).then((events) => {
             setDeactivateCount(events.length + 1);
         });
 

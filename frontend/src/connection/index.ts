@@ -1,12 +1,12 @@
 import { createWeb3Modal, defaultConfig } from "@web3modal/ethers/react";
 
-export const SUPPORTED_CHAIN_ID = 11155111;
+export const SUPPORTED_CHAIN_ID = 4202;
 
-const sepolia = {
-  chainId: 11155111,
-  name: "Sepolia",
+const liskSepolia = {
+  chainId: 4202,
+  name: "Lisk Sepolia Testnet",
   currency: "ETH",
-  explorerUrl: "https://etherscan.io",
+  explorerUrl: "https://sepolia-blockscout.lisk.com",
   rpcUrl: import.meta.env.VITE_RPC_URL,
 };
 
@@ -20,7 +20,7 @@ const metadata = {
 export const configWeb3Modal = () =>
   createWeb3Modal({
     ethersConfig: defaultConfig({ metadata }),
-    chains: [sepolia],
+    chains: [liskSepolia],
     projectId: import.meta.env.VITE_PROJECT_ID,
     enableAnalytics: false, // Optional - defaults to your Cloud configuration
   });

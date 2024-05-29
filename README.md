@@ -6,8 +6,8 @@
 
 TRiver is a token streaming platform for easy continuous transactions through automation. The goal is to make continuous transactions over user-defined intervals.
 
-<img src="https://github.com/JoshdfG/t-river/blob/8d80ba6259109dd605f1b2650b4572a6b3ddcee7/screenshots/our_services.png"/>
 In essence, the application automates various financial activities such as salaries and subscriptions, eliminating the need for manual intervention.
+<img src="https://github.com/JoshdfG/t-river/blob/8d80ba6259109dd605f1b2650b4572a6b3ddcee7/screenshots/our_services.png"/>
 This automation is particularly valuable in DeFi, where efficiency and reliability are paramount.
 Built on the Lisk blockchain, the application leverages the power of smart contracts to securely and efficiently handle token streaming functionalities.
 

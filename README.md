@@ -33,6 +33,7 @@ The salary streaming makes it easy for employers to just upload a CSV with emplo
 ## BUSINESS LOGIC
 
 The platform seeks to onboard existing web2 services that offer subscriptions like DSTV, Starlink, Netflix etc.
+
 We generate income by charging both the companies and the users for making transactions through the platform.
 
 ## FUTURE PROSPECTS

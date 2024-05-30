@@ -24,11 +24,11 @@ Employers paying in crypto do not have an easy way to load addresses and automat
 
 ## SOLUTION:
 
-<!-- <img src="https://github.com/JoshdfG/t-river/blob/8d80ba6259109dd605f1b2650b4572a6b3ddcee7/screenshots/available%20subscriptions.png"/> -->
+<img src="https://github.com/JoshdfG/t-river/blob/4693a39fffd7b1272977294d0bac85eb0f51a5f3/screenshots/available_subscriptions.png"/>
 
 Our platform allows subscription services like Netflix to create their own module on the platform from where their users can subscribe to available services and automate payments.
 
-<!-- <img src=""/> -->
+<img src="https://github.com/JoshdfG/t-river/blob/4693a39fffd7b1272977294d0bac85eb0f51a5f3/screenshots/salary_streaming.png"/>
 
 The salary streaming makes it easy for employers to just upload a CSV with employee addresses and amounts, select the payment interval and automatic salary payment starts.
 

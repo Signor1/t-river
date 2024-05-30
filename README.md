@@ -24,9 +24,11 @@ Employers paying in crypto do not have an easy way to load addresses and automat
 
 ## SOLUTION:
 
-<img src="https://github.com/JoshdfG/t-river/blob/8d80ba6259109dd605f1b2650b4572a6b3ddcee7/screenshots/available%20subscriptions.png"/>
+<!-- <img src="https://github.com/JoshdfG/t-river/blob/8d80ba6259109dd605f1b2650b4572a6b3ddcee7/screenshots/available%20subscriptions.png"/> -->
 
 Our platform allows subscription services like Netflix to create their own module on the platform from where their users can subscribe to available services and automate payments.
+
+<!-- <img src=""/> -->
 
 The salary streaming makes it easy for employers to just upload a CSV with employee addresses and amounts, select the payment interval and automatic salary payment starts.
 
@@ -46,9 +48,9 @@ Automated staking rewards and income generation for our staking pool.
 Some of the tools we used for the project include:
 
 1. Chainlink automation using upkeep.
-2. Solidity smart contracts.
+2. Smart contracts using solidity.
 3. Lisk testnet for deployment.
-4. React ts for frontend.
+4. React and Typescript for the Frontend.
 
 ## DEPLOYED CONTRACTS
 
